@@ -1,0 +1,28 @@
+
+.color-box {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+  .upper-color {
+    height: 50%;
+    background-color: #00c2d1; 
+  }
+
+  .lower-color {
+    height: 50%;
+    background-color: white;
+  }
+
+  .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    z-index: 2; /* Ensure the image is above the colors */
+  }
+  

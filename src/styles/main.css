@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vh;
+}
+.image img{
+    display: flex;
+    align-items: center;
+}
+
+.me{
+    width: 450px;
+    height: 450px; 
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px #00c2d1;
+}
+.info h1{
+    color: #00c2d1;
+    text-shadow: 0 0 16px ;
+    font-size: 3rem;
+}
+.info h2 span{
+    color: #00c2d1;
+   
+}
+.social{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    margin: 30px 0px;
+    background-color: #00c2d1;
+    border: 0px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+} 
+.btn a{
+    text-decoration: none;
+    color: black;
+    background-color: #00c2d1;
+}
+.btn:hover{
+    box-shadow: 0px 0px 16px #00c2d1;
+}
+.fa {
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #00c2d1;
+    border: 2px solid #00c2d1;
+}
+.fa:hover{
+    box-shadow: 0px 0px 14px #00c2d1;
+    background-color: #00c2d1;
+    color: #1f232d;
+}
+.info {
+    width: 50vw;
+    color: white;
+    font-family: 'Sono', monospace;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:1000px) {
+    .main{
+        display: flex;
+        flex-direction:column;
+    }
+}
+@media screen and (max-width:600px) {
+    .me{
+        
+    width: 350px;
+    height: 350px; 
+    }
+    .info h1{
+        font-size: 2rem;
+    } 
+}
+@media screen and (max-width:450px) {
+    .me{
+    width: 250px;
+    height: 250px; 
+    }
+    .info h1{
+        font-size: 1.5rem;
+    } 
+    .info h2 {
+        font-size: 1.5rem;
+
+    }
+}
+
